@@ -1,12 +1,12 @@
 import Foundation
 
-enum APIError: LocalizedError {
+public enum APIError: LocalizedError, @unchecked Sendable {
     case invalidURL
     case serverError(message: String)
     case decodingError
     case networkError(Error)
 
-    var errorDescription: String? {
+    public var errorDescription: String? {
         switch self {
         case .invalidURL:
             return "Invalid server URL."
@@ -20,15 +20,22 @@ enum APIError: LocalizedError {
     }
 }
 
-final class APIClient: Sendable {
-    static let shared = APIClient()
+public final class APIClient: Sendable {
+    public static let shared = APIClient()
     private let session: URLSession
+    private let keychainManager: any KeychainManagerProtocol
 
-    init(session: URLSession = .shared) {
+    public init(session: URLSession = .shared, keychainManager: any KeychainManagerProtocol = KeychainManager.shared) {
         self.session = session
+        self.keychainManager = keychainManager
     }
 
-    func request<T: Decodable>(_ endpoint: String, queryItems: [URLQueryItem] = []) async throws -> T {
+    public func request<T: Decodable>(
+        _ endpoint: String,
+        method: String = "GET",
+        queryItems: [URLQueryItem] = [],
+        body: (any Encodable)? = nil
+    ) async throws -> T {
         guard var components = URLComponents(url: AppConfig.baseURL.appendingPathComponent(endpoint), resolvingAgainstBaseURL: true) else {
             throw APIError.invalidURL
         }
@@ -42,8 +49,21 @@ final class APIClient: Sendable {
         }
 
         var request = URLRequest(url: url)
-        request.httpMethod = "GET"
+        request.httpMethod = method
         request.setValue("application/json", forHTTPHeaderField: "Accept")
+
+        if let token = keychainManager.getToken() {
+            request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+        }
+
+        if let body = body {
+            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+            do {
+                request.httpBody = try JSONEncoder().encode(body)
+            } catch {
+                throw APIError.serverError(message: "Failed to encode request body.")
+            }
+        }
 
         let data: Data
         let response: URLResponse

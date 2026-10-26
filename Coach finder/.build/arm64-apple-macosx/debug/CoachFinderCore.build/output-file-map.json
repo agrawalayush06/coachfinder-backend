@@ -23,6 +23,34 @@
     "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Activity.swiftdeps",
     "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Activity.dia"
   },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/AuthResponse.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthResponse.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthResponse.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthResponse.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthResponse.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/Booking.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Booking.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Booking.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Booking~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Booking.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Booking.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/CreateBookingRequest.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/CreateBookingRequest.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/CreateBookingRequest.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/CreateBookingRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/CreateBookingRequest.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/CreateBookingRequest.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/LoginRequest.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LoginRequest.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LoginRequest.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LoginRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LoginRequest.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LoginRequest.dia"
+  },
   "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/PageResponse.swift": {
     "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/PageResponse.d",
     "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/PageResponse.swift.o",
@@ -37,12 +65,47 @@
     "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Provider.swiftdeps",
     "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Provider.dia"
   },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/RegisterRequest.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/RegisterRequest.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/RegisterRequest.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/RegisterRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/RegisterRequest.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/RegisterRequest.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/User.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/User.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/User.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/User~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/User.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/User.dia"
+  },
   "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/APIClient.swift": {
     "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIClient.d",
     "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIClient.swift.o",
     "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIClient~partial.swiftmodule",
     "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIClient.swiftdeps",
     "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIClient.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/AuthService.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthService.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthService.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthService~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthService.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthService.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/BookingService.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookingService.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookingService.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookingService~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookingService.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookingService.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/KeychainManager.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/KeychainManager.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/KeychainManager.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/KeychainManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/KeychainManager.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/KeychainManager.dia"
   },
   "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/LocationManager.swift": {
     "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LocationManager.d",
@@ -57,6 +120,27 @@
     "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderService~partial.swiftmodule",
     "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderService.swiftdeps",
     "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderService.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/AuthManager.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthManager.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthManager.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthManager.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthManager.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/BookSessionViewModel.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookSessionViewModel.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookSessionViewModel.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookSessionViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookSessionViewModel.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookSessionViewModel.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/MyBookingsViewModel.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/MyBookingsViewModel.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/MyBookingsViewModel.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/MyBookingsViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/MyBookingsViewModel.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/MyBookingsViewModel.dia"
   },
   "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/ProviderDetailViewModel.swift": {
     "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderDetailViewModel.d",

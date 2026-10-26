@@ -27,6 +27,11 @@ final class MockProviderService: ProviderServiceProtocol, @unchecked Sendable {
     private(set) var fetchProvidersCallCount = 0
     private(set) var lastFetchCity: String?
     private(set) var lastFetchActivityId: Int?
+    private(set) var lastFetchType: String?
+    private(set) var lastFetchLat: Double?
+    private(set) var lastFetchLng: Double?
+    private(set) var lastFetchRadiusKm: Double?
+    private(set) var lastFetchSortBy: String?
     private(set) var lastFetchPage: Int?
     private(set) var lastFetchSize: Int?
     private(set) var fetchProviderByIdCalledWithId: Int?
@@ -39,10 +44,25 @@ final class MockProviderService: ProviderServiceProtocol, @unchecked Sendable {
         return mockActivities
     }
 
-    func fetchProviders(city: String?, activityId: Int?, page: Int, size: Int) async throws -> PageResponse<Provider> {
+    func fetchProviders(
+        city: String?,
+        activityId: Int?,
+        type: String?,
+        lat: Double?,
+        lng: Double?,
+        radiusKm: Double?,
+        sortBy: String?,
+        page: Int,
+        size: Int
+    ) async throws -> PageResponse<Provider> {
         fetchProvidersCallCount += 1
         lastFetchCity = city
         lastFetchActivityId = activityId
+        lastFetchType = type
+        lastFetchLat = lat
+        lastFetchLng = lng
+        lastFetchRadiusKm = radiusKm
+        lastFetchSortBy = sortBy
         lastFetchPage = page
         lastFetchSize = size
 
@@ -50,6 +70,20 @@ final class MockProviderService: ProviderServiceProtocol, @unchecked Sendable {
             throw error
         }
         return mockPageResponse
+    }
+
+    func fetchProviders(city: String?, activityId: Int?, page: Int, size: Int) async throws -> PageResponse<Provider> {
+        try await fetchProviders(
+            city: city,
+            activityId: activityId,
+            type: nil,
+            lat: nil,
+            lng: nil,
+            radiusKm: nil,
+            sortBy: nil,
+            page: page,
+            size: size
+        )
     }
 
     func fetchProviderById(id: Int) async throws -> Provider {

@@ -20,17 +20,21 @@ public class AppUser {
     @Column(nullable = false, length = 20)
     private String role;
 
+    @Column(name = "password_hash")
+    private String passwordHash;
+
     @Column(name = "created_at", nullable = false, updatable = false)
     private Instant createdAt;
 
     public AppUser() {
     }
 
-    public AppUser(Long id, String email, String name, String role, Instant createdAt) {
+    public AppUser(Long id, String email, String name, String role, String passwordHash, Instant createdAt) {
         this.id = id;
         this.email = email;
         this.name = name;
         this.role = role;
+        this.passwordHash = passwordHash;
         this.createdAt = createdAt;
     }
 
@@ -71,6 +75,14 @@ public class AppUser {
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    public String getPasswordHash() {
+        return passwordHash;
+    }
+
+    public void setPasswordHash(String passwordHash) {
+        this.passwordHash = passwordHash;
     }
 
     public Instant getCreatedAt() {

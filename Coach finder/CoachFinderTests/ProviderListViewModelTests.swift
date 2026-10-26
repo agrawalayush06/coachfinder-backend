@@ -180,4 +180,49 @@ struct ProviderListViewModelTests {
         #expect(vm.providers.count == 1)
         #expect(vm.providers.first?.id == 10)
     }
+
+    @Test("selectType updates type and triggers fetchFirstPage")
+    func testSelectType() async {
+        let vm = makeViewModel()
+
+        await vm.selectType("ACADEMY")
+
+        #expect(vm.selectedType == "ACADEMY")
+        #expect(mockService.lastFetchType == "ACADEMY")
+        #expect(vm.currentPage == 0)
+    }
+
+    @Test("selectRadius updates radius and triggers fetchFirstPage")
+    func testSelectRadius() async {
+        let vm = makeViewModel()
+
+        await vm.selectRadius(25.0)
+
+        #expect(vm.selectedRadiusKm == 25.0)
+        #expect(mockService.lastFetchRadiusKm == 25.0)
+        #expect(vm.currentPage == 0)
+    }
+
+    @Test("selectSortBy updates sort and triggers fetchFirstPage")
+    func testSelectSortBy() async {
+        let vm = makeViewModel()
+
+        await vm.selectSortBy("name")
+
+        #expect(vm.selectedSortBy == "name")
+        #expect(mockService.lastFetchSortBy == "name")
+        #expect(vm.currentPage == 0)
+    }
+
+    @Test("formattedDistance formats meters and kilometers accurately")
+    func testFormattedDistance() {
+        let providerNear = Provider(id: 1, userId: 1, type: "COACH", name: "Near", city: "Delhi", distanceKm: 0.45)
+        #expect(providerNear.formattedDistance == "450 m away")
+
+        let providerFar = Provider(id: 2, userId: 2, type: "COACH", name: "Far", city: "Delhi", distanceKm: 5.67)
+        #expect(providerFar.formattedDistance == "5.7 km away")
+
+        let providerNoDist = Provider(id: 3, userId: 3, type: "COACH", name: "None", city: "Delhi", distanceKm: nil)
+        #expect(providerNoDist.formattedDistance == nil)
+    }
 }

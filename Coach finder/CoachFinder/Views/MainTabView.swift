@@ -10,6 +10,7 @@ struct MainTabView: View {
     enum Tab: Hashable {
         case list
         case map
+        case profile
     }
 
     var body: some View {
@@ -27,6 +28,13 @@ struct MainTabView: View {
                     Label("Map", systemImage: "map")
                 }
                 .tag(Tab.map)
+
+            // Tab 3: Profile Screen
+            ProfileView()
+                .tabItem {
+                    Label("Profile", systemImage: "person.crop.circle")
+                }
+                .tag(Tab.profile)
         }
     }
 }

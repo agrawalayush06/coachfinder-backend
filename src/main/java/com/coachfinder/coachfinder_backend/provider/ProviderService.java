@@ -60,6 +60,35 @@ public class ProviderService {
                 .map(ProviderResponse::fromEntity);
     }
 
+    public Page<ProviderResponse> searchProviders(
+            String city,
+            Long activityId,
+            String type,
+            Double lat,
+            Double lng,
+            Double radiusKm,
+            String sortBy,
+            Pageable pageable
+    ) {
+        String filterCity = (city != null && !city.isBlank()) ? city.trim() : null;
+        String filterType = (type != null && !type.isBlank()) ? type.trim() : null;
+        String sortOrder = (sortBy != null && !sortBy.isBlank()) ? sortBy.trim() : "createdAt";
+
+        int clampedPageSize = Math.max(1, Math.min(50, pageable.getPageSize()));
+        Pageable clampedPageable = PageRequest.of(pageable.getPageNumber(), clampedPageSize);
+
+        return providerRepository.searchProviders(
+                filterCity,
+                activityId,
+                filterType,
+                lat,
+                lng,
+                radiusKm,
+                sortOrder,
+                clampedPageable
+        ).map(ProviderResponse::fromProjection);
+    }
+
     @Transactional
     public ProviderResponse updateProvider(Long id, UpdateProviderRequest request) {
         Provider provider = providerRepository.findById(id)

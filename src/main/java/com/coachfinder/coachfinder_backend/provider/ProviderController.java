@@ -34,7 +34,15 @@ public class ProviderController {
     public Page<ProviderResponse> getProviders(
             @RequestParam(required = false) String city,
             @RequestParam(required = false) Long activityId,
+            @RequestParam(required = false) String type,
+            @RequestParam(required = false) Double lat,
+            @RequestParam(required = false) Double lng,
+            @RequestParam(required = false) Double radiusKm,
+            @RequestParam(required = false, defaultValue = "createdAt") String sortBy,
             Pageable pageable) {
+        if (lat != null || lng != null || radiusKm != null || type != null || (sortBy != null && !"createdAt".equals(sortBy))) {
+            return providerService.searchProviders(city, activityId, type, lat, lng, radiusKm, sortBy, pageable);
+        }
         return providerService.getProviders(city, activityId, pageable);
     }
 

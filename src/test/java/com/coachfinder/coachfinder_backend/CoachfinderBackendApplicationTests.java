@@ -1,13 +1,12 @@
 package com.coachfinder.coachfinder_backend;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class CoachfinderBackendApplicationTests {
+class CoachfinderBackendApplicationTests extends BaseIT {
 
 	@Test
 	void contextLoads() {
 	}
 
 }
+

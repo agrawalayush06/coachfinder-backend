@@ -1,5 +1,6 @@
 import Foundation
 import Observation
+import CoreLocation
 
 /// The ViewModel for the Provider List screen.
 /// Marked with `@MainActor` to ensure all UI state updates happen on the main thread.
@@ -8,12 +9,18 @@ import Observation
 @MainActor
 final class ProviderListViewModel {
     private let providerService: ProviderServiceProtocol
+    var locationManager: LocationManager?
 
     // MARK: - State Properties
     var providers: [Provider] = []
     var activities: [Activity] = []
     var selectedActivity: Activity? = nil
-    var citySearchQuery: String = ""
+    var citySearchQuery: String = "Delhi"
+
+    // Advanced Filter State
+    var selectedType: String? = nil // nil = "All", "INDIVIDUAL", "ACADEMY"
+    var selectedRadiusKm: Double? = nil // nil = Any, 5.0, 10.0, 25.0, 50.0
+    var selectedSortBy: String = "distance" // "distance", "name", "createdAt"
 
     // MARK: - UI Status
     var isLoading: Bool = false
@@ -35,9 +42,25 @@ final class ProviderListViewModel {
         !isLoading && providers.isEmpty && errorMessage == nil
     }
 
+    var userCoordinate: CLLocationCoordinate2D? {
+        locationManager?.userLocation
+    }
+
+    var userLat: Double? {
+        userCoordinate?.latitude
+    }
+
+    var userLng: Double? {
+        userCoordinate?.longitude
+    }
+
     // MARK: - Initializer
-    init(providerService: ProviderServiceProtocol = ProviderService()) {
+    init(
+        providerService: ProviderServiceProtocol = ProviderService(),
+        locationManager: LocationManager? = nil
+    ) {
         self.providerService = providerService
+        self.locationManager = locationManager
     }
 
     // MARK: - Actions
@@ -53,6 +76,11 @@ final class ProviderListViewModel {
             async let fetchedPage = providerService.fetchProviders(
                 city: sanitizedCity,
                 activityId: selectedActivity?.id,
+                type: selectedType,
+                lat: userLat,
+                lng: userLng,
+                radiusKm: selectedRadiusKm,
+                sortBy: selectedSortBy,
                 page: 0,
                 size: pageSize
             )
@@ -80,6 +108,11 @@ final class ProviderListViewModel {
             async let fetchedPage = providerService.fetchProviders(
                 city: sanitizedCity,
                 activityId: selectedActivity?.id,
+                type: selectedType,
+                lat: userLat,
+                lng: userLng,
+                radiusKm: selectedRadiusKm,
+                sortBy: selectedSortBy,
                 page: 0,
                 size: pageSize
             )
@@ -104,6 +137,27 @@ final class ProviderListViewModel {
         await fetchFirstPage()
     }
 
+    /// User selects a provider type ("INDIVIDUAL", "ACADEMY", or nil).
+    func selectType(_ type: String?) async {
+        guard selectedType != type else { return }
+        selectedType = type
+        await fetchFirstPage()
+    }
+
+    /// User selects a search radius (e.g. 5.0, 10.0, 25.0, nil).
+    func selectRadius(_ radiusKm: Double?) async {
+        guard selectedRadiusKm != radiusKm else { return }
+        selectedRadiusKm = radiusKm
+        await fetchFirstPage()
+    }
+
+    /// User selects a sorting option ("distance", "name", "createdAt").
+    func selectSortBy(_ sortBy: String) async {
+        guard selectedSortBy != sortBy else { return }
+        selectedSortBy = sortBy
+        await fetchFirstPage()
+    }
+
     /// User submits a city search or clears the search bar.
     func searchCity() async {
         await fetchFirstPage()
@@ -119,6 +173,11 @@ final class ProviderListViewModel {
             let page = try await providerService.fetchProviders(
                 city: sanitizedCity,
                 activityId: selectedActivity?.id,
+                type: selectedType,
+                lat: userLat,
+                lng: userLng,
+                radiusKm: selectedRadiusKm,
+                sortBy: selectedSortBy,
                 page: 0,
                 size: pageSize
             )
@@ -150,6 +209,11 @@ final class ProviderListViewModel {
             let page = try await providerService.fetchProviders(
                 city: sanitizedCity,
                 activityId: selectedActivity?.id,
+                type: selectedType,
+                lat: userLat,
+                lng: userLng,
+                radiusKm: selectedRadiusKm,
+                sortBy: selectedSortBy,
                 page: nextPage,
                 size: pageSize
             )

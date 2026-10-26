@@ -151,13 +151,27 @@ struct ProviderMapView: View {
                         .foregroundStyle(.primary)
                         .lineLimit(1)
 
-                    HStack(spacing: 4) {
-                        Image(systemName: "mappin.and.ellipse")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                        Text(provider.city)
-                            .font(.subheadline)
-                            .foregroundStyle(.secondary)
+                    HStack(spacing: 6) {
+                        HStack(spacing: 4) {
+                            Image(systemName: "mappin.and.ellipse")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                            Text(provider.city)
+                                .font(.subheadline)
+                                .foregroundStyle(.secondary)
+                        }
+
+                        if let distance = provider.formattedDistance {
+                            Text("•")
+                                .foregroundStyle(.secondary)
+                            HStack(spacing: 3) {
+                                Image(systemName: "location.fill")
+                                    .font(.caption2)
+                                Text(distance)
+                                    .font(.caption.weight(.medium))
+                            }
+                            .foregroundStyle(Color.accentColor)
+                        }
                     }
                 }
 

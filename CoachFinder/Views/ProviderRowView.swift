@@ -1,11 +1,11 @@
 import SwiftUI
 
-/// A clean card-style row displaying provider details (name, type badge, city).
+/// A clean card-style row displaying provider details (name, type badge, city, distance).
 struct ProviderRowView: View {
     let provider: Provider
 
     private var isCoach: Bool {
-        provider.type.uppercased() == "COACH"
+        provider.type.uppercased() == "COACH" || provider.type.uppercased() == "INDIVIDUAL"
     }
 
     var body: some View {
@@ -18,7 +18,7 @@ struct ProviderRowView: View {
 
                 Spacer()
 
-                // Badge for COACH or ACADEMY
+                // Badge for COACH/INDIVIDUAL or ACADEMY
                 Text(provider.type.uppercased())
                     .font(.caption2.weight(.bold))
                     .padding(.horizontal, 8)
@@ -30,8 +30,8 @@ struct ProviderRowView: View {
                     .foregroundStyle(isCoach ? Color.blue : Color.orange)
             }
 
-            // Location with pin icon
-            HStack(spacing: 4) {
+            // Location and Distance
+            HStack(spacing: 6) {
                 Image(systemName: "mappin.and.ellipse")
                     .font(.caption)
                     .foregroundStyle(.secondary)
@@ -40,7 +40,20 @@ struct ProviderRowView: View {
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
 
-                if let lat = provider.lat, let lng = provider.lng {
+                if let distance = provider.formattedDistance {
+                    Text("•")
+                        .font(.caption)
+                        .foregroundStyle(.tertiary)
+
+                    HStack(spacing: 3) {
+                        Image(systemName: "location.fill")
+                            .font(.caption2)
+                        Text(distance)
+                            .font(.caption)
+                            .fontWeight(.semibold)
+                    }
+                    .foregroundStyle(.blue)
+                } else if let lat = provider.lat, let lng = provider.lng {
                     Text(String(format: "(%.2f, %.2f)", lat, lng))
                         .font(.caption2)
                         .foregroundStyle(.tertiary)

@@ -5,6 +5,10 @@ import MapKit
 struct ProviderDetailView: View {
     @State private var viewModel: ProviderDetailViewModel
 
+    @Environment(AuthManager.self) private var authManager: AuthManager?
+    @State private var showingBookSheet: Bool = false
+    @State private var showingLoginAlert: Bool = false
+
     init(provider: Provider) {
         _viewModel = State(initialValue: ProviderDetailViewModel(providerId: provider.id, initialProvider: provider))
     }
@@ -44,6 +48,10 @@ struct ProviderDetailView: View {
                         infoSection(provider: provider)
                     }
                     .padding()
+                    .padding(.bottom, 20)
+                }
+                .safeAreaInset(edge: .bottom) {
+                    bottomActionBar(provider: provider)
                 }
                 .refreshable {
                     await viewModel.loadDetails()
@@ -52,8 +60,50 @@ struct ProviderDetailView: View {
         }
         .navigationTitle(viewModel.provider?.name ?? "Provider Details")
         .navigationBarTitleDisplayMode(.inline)
+        .sheet(isPresented: $showingBookSheet) {
+            if let provider = viewModel.provider {
+                BookSessionSheet(provider: provider)
+            }
+        }
+        .alert("Sign In Required", isPresented: $showingLoginAlert) {
+            Button("OK", role: .cancel) { }
+        } message: {
+            Text("Please sign in or create an account from the Profile tab to book a session.")
+        }
         .task {
             await viewModel.loadDetails()
+        }
+    }
+
+    // MARK: - Bottom Action Bar
+    private func bottomActionBar(provider: Provider) -> some View {
+        VStack(spacing: 0) {
+            Divider()
+            HStack {
+                Button {
+                    if authManager?.isAuthenticated == true {
+                        showingBookSheet = true
+                    } else {
+                        showingLoginAlert = true
+                    }
+                } label: {
+                    HStack(spacing: 8) {
+                        Image(systemName: "calendar.badge.plus")
+                            .font(.headline)
+                        Text("Book a Session")
+                            .fontWeight(.semibold)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 14)
+                    .background(Color.accentColor)
+                    .foregroundStyle(.white)
+                    .clipShape(RoundedRectangle(cornerRadius: 12))
+                    .shadow(color: Color.accentColor.opacity(0.3), radius: 8, x: 0, y: 4)
+                }
+            }
+            .padding(.horizontal, 20)
+            .padding(.vertical, 12)
+            .background(.regularMaterial)
         }
     }
 
@@ -106,6 +156,22 @@ struct ProviderDetailView: View {
                     .fontWeight(.medium)
             }
             .font(.subheadline)
+
+            if let distance = provider.formattedDistance {
+                HStack {
+                    Text("Distance")
+                        .foregroundStyle(.secondary)
+                    Spacer()
+                    HStack(spacing: 4) {
+                        Image(systemName: "location.fill")
+                            .font(.caption)
+                        Text(distance)
+                            .fontWeight(.semibold)
+                    }
+                    .foregroundStyle(.blue)
+                }
+                .font(.subheadline)
+            }
 
             if let lat = provider.lat, let lng = provider.lng, let coordinate = provider.coordinate {
                 HStack {

@@ -9,7 +9,7 @@ enum AppConfig {
 
     static var baseURL: URL {
         let host = useSimulator ? "localhost" : macLanIP
-        guard let url = URL(string: "http://\(host):8080/v1") else {
+        guard let url = URL(string: "http://\(host):8080") else {
             fatalError("Invalid base URL configuration")
         }
         return url

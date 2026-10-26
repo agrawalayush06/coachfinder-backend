@@ -40,6 +40,22 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/AuthResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/Booking.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/CreateBookingRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/LoginRequest.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/PageResponse.swift"
         },
         {
@@ -48,7 +64,27 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/RegisterRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/User.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/APIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/AuthService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/BookingService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/KeychainManager.swift"
         },
         {
           "kind" : "file",
@@ -57,6 +93,18 @@
         {
           "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/ProviderService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/AuthManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/BookSessionViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/MyBookingsViewModel.swift"
         },
         {
           "kind" : "file",
@@ -86,11 +134,23 @@
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AppConfig.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIErrorResponse.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Activity.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthResponse.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Booking.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/CreateBookingRequest.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LoginRequest.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/PageResponse.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Provider.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/RegisterRequest.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/User.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIClient.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthService.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookingService.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/KeychainManager.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LocationManager.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderService.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthManager.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookSessionViewModel.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/MyBookingsViewModel.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderDetailViewModel.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderListViewModel.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderMapViewModel.swift.o"
@@ -166,6 +226,22 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Booking.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/CreateBookingRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LoginRequest.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/PageResponse.swift.o"
         },
         {
@@ -174,7 +250,27 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/RegisterRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/User.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookingService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/KeychainManager.swift.o"
         },
         {
           "kind" : "file",
@@ -183,6 +279,18 @@
         {
           "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookSessionViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/MyBookingsViewModel.swift.o"
         },
         {
           "kind" : "file",
@@ -206,11 +314,23 @@
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Config/AppConfig.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/APIErrorResponse.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/Activity.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/AuthResponse.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/Booking.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/CreateBookingRequest.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/LoginRequest.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/PageResponse.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/Provider.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/RegisterRequest.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/User.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/APIClient.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/AuthService.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/BookingService.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/KeychainManager.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/LocationManager.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/ProviderService.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/AuthManager.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/BookSessionViewModel.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/MyBookingsViewModel.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/ProviderDetailViewModel.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/ProviderListViewModel.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/ProviderMapViewModel.swift"
@@ -326,7 +446,31 @@
       "inputs" : [
         {
           "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/AuthManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/BookSessionViewModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockAuthService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockBookingService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockKeychainManager.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockProviderService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/MyBookingsViewModelTests.swift"
         },
         {
           "kind" : "file",
@@ -357,7 +501,13 @@
       "moduleName" : "CoachFinderTests",
       "moduleOutputPath" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/Modules/CoachFinderTests.swiftmodule",
       "objects" : [
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/AuthManagerTests.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/BookSessionViewModelTests.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockAuthService.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockBookingService.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockKeychainManager.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockProviderService.swift.o",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MyBookingsViewModelTests.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderDetailViewModelTests.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderListViewModelTests.swift.o",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderMapViewModelTests.swift.o"
@@ -420,7 +570,31 @@
       "outputs" : [
         {
           "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/AuthManagerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/BookSessionViewModelTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockAuthService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockBookingService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockKeychainManager.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockProviderService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MyBookingsViewModelTests.swift.o"
         },
         {
           "kind" : "file",
@@ -441,7 +615,13 @@
       ],
       "prepareForIndexing" : false,
       "sources" : [
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/AuthManagerTests.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/BookSessionViewModelTests.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockAuthService.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockBookingService.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockKeychainManager.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockProviderService.swift",
+        "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/MyBookingsViewModelTests.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/ProviderDetailViewModelTests.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/ProviderListViewModelTests.swift",
         "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/ProviderMapViewModelTests.swift"
@@ -464,11 +644,23 @@
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Config/AppConfig.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/APIErrorResponse.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/Activity.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/AuthResponse.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/Booking.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/CreateBookingRequest.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/LoginRequest.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/PageResponse.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/Provider.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/RegisterRequest.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/User.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/APIClient.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/AuthService.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/BookingService.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/KeychainManager.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/LocationManager.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/ProviderService.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/AuthManager.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/BookSessionViewModel.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/MyBookingsViewModel.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/ProviderDetailViewModel.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/ProviderListViewModel.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/ProviderMapViewModel.swift",
@@ -603,7 +795,13 @@
       "-package-name",
       "coach_finder",
       "-c",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/AuthManagerTests.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/BookSessionViewModelTests.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockAuthService.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockBookingService.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockKeychainManager.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockProviderService.swift",
+      "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/MyBookingsViewModelTests.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/ProviderDetailViewModelTests.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/ProviderListViewModelTests.swift",
       "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/ProviderMapViewModelTests.swift",
@@ -720,6 +918,22 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/AuthResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/Booking.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/CreateBookingRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/LoginRequest.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/PageResponse.swift"
         },
         {
@@ -728,7 +942,27 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/RegisterRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/User.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/APIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/AuthService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/BookingService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/KeychainManager.swift"
         },
         {
           "kind" : "file",
@@ -737,6 +971,18 @@
         {
           "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/ProviderService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/AuthManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/BookSessionViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/MyBookingsViewModel.swift"
         },
         {
           "kind" : "file",
@@ -792,7 +1038,47 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AuthService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookSessionViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Booking.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/BookingService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/CreateBookingRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/KeychainManager.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LocationManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LoginRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/MyBookingsViewModel.swift.o"
         },
         {
           "kind" : "file",
@@ -820,11 +1106,43 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/RegisterRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/User.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderPackageTests.build/runner.swift.o"
         },
         {
           "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/AuthManagerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/BookSessionViewModelTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockAuthService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockBookingService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockKeychainManager.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockProviderService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MyBookingsViewModelTests.swift.o"
         },
         {
           "kind" : "file",
@@ -850,7 +1168,31 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/AuthManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/BookSessionViewModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockAuthService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockBookingService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockKeychainManager.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockProviderService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/MyBookingsViewModelTests.swift"
         },
         {
           "kind" : "file",

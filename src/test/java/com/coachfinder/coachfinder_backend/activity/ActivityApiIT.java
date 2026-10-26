@@ -19,12 +19,14 @@ class ActivityApiIT extends BaseIT {
     void getAllActivities_ReturnsSeededActivities() throws Exception {
         mockMvc.perform(get("/v1/activities"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$", hasSize(6)))
+                .andExpect(jsonPath("$", hasSize(8)))
                 .andExpect(jsonPath("$[?(@.name == 'Cricket')]").exists())
                 .andExpect(jsonPath("$[?(@.name == 'Badminton')]").exists())
                 .andExpect(jsonPath("$[?(@.name == 'Swimming')]").exists())
                 .andExpect(jsonPath("$[?(@.name == 'Guitar')]").exists())
                 .andExpect(jsonPath("$[?(@.name == 'Chess')]").exists())
-                .andExpect(jsonPath("$[?(@.name == 'Yoga')]").exists());
+                .andExpect(jsonPath("$[?(@.name == 'Yoga')]").exists())
+                .andExpect(jsonPath("$[?(@.name == 'Football')]").exists())
+                .andExpect(jsonPath("$[?(@.name == 'Tennis')]").exists());
     }
 }

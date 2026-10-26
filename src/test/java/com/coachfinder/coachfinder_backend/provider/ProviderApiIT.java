@@ -176,4 +176,79 @@ class ProviderApiIT extends BaseIT {
         mockMvc.perform(get("/v1/providers/" + providerId))
                 .andExpect(status().isNotFound());
     }
+
+    @Test
+    void searchProviders_ByRadius_ReturnsOnlyWithinRadius() throws Exception {
+        // Coach Near: Connaught Place, Delhi (~2.5 km from India Gate)
+        CreateProviderRequest nearReq = new CreateProviderRequest(userId1, "INDIVIDUAL", "Near Coach", "Delhi", 28.6315, 77.2167);
+        mockMvc.perform(post("/v1/providers")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(nearReq)))
+                .andExpect(status().isCreated());
+
+        // Coach Far: Greater Noida (~38 km from India Gate)
+        CreateProviderRequest farReq = new CreateProviderRequest(userId2, "INDIVIDUAL", "Far Coach", "Noida", 28.4744, 77.5040);
+        mockMvc.perform(post("/v1/providers")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(farReq)))
+                .andExpect(status().isCreated());
+
+        // Query user at India Gate (28.6139, 77.2090) with 10 km radius
+        mockMvc.perform(get("/v1/providers")
+                        .param("lat", "28.6139")
+                        .param("lng", "77.2090")
+                        .param("radiusKm", "10.0"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.content", hasSize(1)))
+                .andExpect(jsonPath("$.content[0].name").value("Near Coach"))
+                .andExpect(jsonPath("$.content[0].distanceKm").isNumber());
+    }
+
+    @Test
+    void searchProviders_SortByDistance_ReturnsClosestFirst() throws Exception {
+        // Coach Near: Connaught Place
+        CreateProviderRequest nearReq = new CreateProviderRequest(userId1, "INDIVIDUAL", "Near Coach", "Delhi", 28.6315, 77.2167);
+        mockMvc.perform(post("/v1/providers")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(nearReq)))
+                .andExpect(status().isCreated());
+
+        // Coach Far: Greater Noida
+        CreateProviderRequest farReq = new CreateProviderRequest(userId2, "INDIVIDUAL", "Far Coach", "Noida", 28.4744, 77.5040);
+        mockMvc.perform(post("/v1/providers")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(farReq)))
+                .andExpect(status().isCreated());
+
+        // Query user at India Gate without radius, but sorted by distance
+        mockMvc.perform(get("/v1/providers")
+                        .param("lat", "28.6139")
+                        .param("lng", "77.2090")
+                        .param("sortBy", "distance"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.content", hasSize(2)))
+                .andExpect(jsonPath("$.content[0].name").value("Near Coach"))
+                .andExpect(jsonPath("$.content[1].name").value("Far Coach"));
+    }
+
+    @Test
+    void searchProviders_ByType_ReturnsOnlyMatchingType() throws Exception {
+        CreateProviderRequest indReq = new CreateProviderRequest(userId1, "INDIVIDUAL", "Solo Trainer", "Delhi", 28.6, 77.2);
+        mockMvc.perform(post("/v1/providers")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(indReq)))
+                .andExpect(status().isCreated());
+
+        CreateProviderRequest acadReq = new CreateProviderRequest(userId2, "ACADEMY", "Premier Academy", "Delhi", 28.6, 77.2);
+        mockMvc.perform(post("/v1/providers")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(acadReq)))
+                .andExpect(status().isCreated());
+
+        mockMvc.perform(get("/v1/providers").param("type", "ACADEMY"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.content", hasSize(1)))
+                .andExpect(jsonPath("$.content[0].name").value("Premier Academy"))
+                .andExpect(jsonPath("$.content[0].type").value("ACADEMY"));
+    }
 }

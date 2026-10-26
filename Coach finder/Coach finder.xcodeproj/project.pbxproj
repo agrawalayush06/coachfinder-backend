@@ -26,6 +26,23 @@
 		796BCE803088C2F600262542 /* ProviderMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE7F3088C2F600262542 /* ProviderMapViewModel.swift */; };
 		796BCE823088C2F600262542 /* ProviderMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE813088C2F600262542 /* ProviderMapView.swift */; };
 		796BCE843088C2F600262542 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE833088C2F600262542 /* MainTabView.swift */; };
+		796BCEB13088C2F600262542 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEA13088C2F600262542 /* User.swift */; };
+		796BCEB23088C2F600262542 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEA23088C2F600262542 /* AuthResponse.swift */; };
+		796BCEB33088C2F600262542 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEA33088C2F600262542 /* LoginRequest.swift */; };
+		796BCEB43088C2F600262542 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEA43088C2F600262542 /* RegisterRequest.swift */; };
+		796BCEB53088C2F600262542 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEA53088C2F600262542 /* KeychainManager.swift */; };
+		796BCEB63088C2F600262542 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEA63088C2F600262542 /* AuthService.swift */; };
+		796BCEB73088C2F600262542 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEA73088C2F600262542 /* AuthManager.swift */; };
+		796BCEB83088C2F600262542 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEA83088C2F600262542 /* LoginView.swift */; };
+		796BCEB93088C2F600262542 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEA93088C2F600262542 /* RegisterView.swift */; };
+		796BCEBA3088C2F600262542 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEAA3088C2F600262542 /* ProfileView.swift */; };
+		796BCECB3088C2F600262542 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEBB3088C2F600262542 /* Booking.swift */; };
+		796BCECC3088C2F600262542 /* CreateBookingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEBC3088C2F600262542 /* CreateBookingRequest.swift */; };
+		796BCECD3088C2F600262542 /* BookingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEBD3088C2F600262542 /* BookingService.swift */; };
+		796BCECE3088C2F600262542 /* BookSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEBE3088C2F600262542 /* BookSessionViewModel.swift */; };
+		796BCECF3088C2F600262542 /* MyBookingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEBF3088C2F600262542 /* MyBookingsViewModel.swift */; };
+		796BCED03088C2F600262542 /* BookSessionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEC03088C2F600262542 /* BookSessionSheet.swift */; };
+		796BCED13088C2F600262542 /* MyBookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCEC13088C2F600262542 /* MyBookingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +67,23 @@
 		796BCE7F3088C2F600262542 /* ProviderMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderMapViewModel.swift; sourceTree = "<group>"; };
 		796BCE813088C2F600262542 /* ProviderMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderMapView.swift; sourceTree = "<group>"; };
 		796BCE833088C2F600262542 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		796BCEA13088C2F600262542 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		796BCEA23088C2F600262542 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		796BCEA33088C2F600262542 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		796BCEA43088C2F600262542 /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
+		796BCEA53088C2F600262542 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		796BCEA63088C2F600262542 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		796BCEA73088C2F600262542 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		796BCEA83088C2F600262542 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		796BCEA93088C2F600262542 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		796BCEAA3088C2F600262542 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		796BCEBB3088C2F600262542 /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		796BCEBC3088C2F600262542 /* CreateBookingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBookingRequest.swift; sourceTree = "<group>"; };
+		796BCEBD3088C2F600262542 /* BookingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingService.swift; sourceTree = "<group>"; };
+		796BCEBE3088C2F600262542 /* BookSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSessionViewModel.swift; sourceTree = "<group>"; };
+		796BCEBF3088C2F600262542 /* MyBookingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsViewModel.swift; sourceTree = "<group>"; };
+		796BCEC03088C2F600262542 /* BookSessionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSessionSheet.swift; sourceTree = "<group>"; };
+		796BCEC13088C2F600262542 /* MyBookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +129,12 @@
 				796BCE433088C2F600262542 /* APIErrorResponse.swift */,
 				796BCE443088C2F600262542 /* PageResponse.swift */,
 				796BCE453088C2F600262542 /* Provider.swift */,
+				796BCEA13088C2F600262542 /* User.swift */,
+				796BCEA23088C2F600262542 /* AuthResponse.swift */,
+				796BCEA33088C2F600262542 /* LoginRequest.swift */,
+				796BCEA43088C2F600262542 /* RegisterRequest.swift */,
+				796BCEBB3088C2F600262542 /* Booking.swift */,
+				796BCEBC3088C2F600262542 /* CreateBookingRequest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -105,6 +145,9 @@
 				796BCE473088C2F600262542 /* APIClient.swift */,
 				796BCE483088C2F600262542 /* ProviderService.swift */,
 				796BCE7D3088C2F600262542 /* LocationManager.swift */,
+				796BCEA53088C2F600262542 /* KeychainManager.swift */,
+				796BCEA63088C2F600262542 /* AuthService.swift */,
+				796BCEBD3088C2F600262542 /* BookingService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -119,18 +162,13 @@
 				796BCE7B3088C2F600262542 /* ProviderDetailView.swift */,
 				796BCE813088C2F600262542 /* ProviderMapView.swift */,
 				796BCE833088C2F600262542 /* MainTabView.swift */,
+				796BCEA83088C2F600262542 /* LoginView.swift */,
+				796BCEA93088C2F600262542 /* RegisterView.swift */,
+				796BCEAA3088C2F600262542 /* ProfileView.swift */,
+				796BCEC03088C2F600262542 /* BookSessionSheet.swift */,
+				796BCEC13088C2F600262542 /* MyBookingsView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		796BCE703088C2F600262542 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				796BCE713088C2F600262542 /* ProviderListViewModel.swift */,
-				796BCE793088C2F600262542 /* ProviderDetailViewModel.swift */,
-				796BCE7F3088C2F600262542 /* ProviderMapViewModel.swift */,
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		796BCE4D3088C2F600262542 /* CoachFinder */ = {
@@ -144,6 +182,19 @@
 				796BCE4C3088C2F600262542 /* CoachFinderApp.swift */,
 			);
 			path = CoachFinder;
+			sourceTree = "<group>";
+		};
+		796BCE703088C2F600262542 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				796BCE713088C2F600262542 /* ProviderListViewModel.swift */,
+				796BCE793088C2F600262542 /* ProviderDetailViewModel.swift */,
+				796BCE7F3088C2F600262542 /* ProviderMapViewModel.swift */,
+				796BCEA73088C2F600262542 /* AuthManager.swift */,
+				796BCEBE3088C2F600262542 /* BookSessionViewModel.swift */,
+				796BCEBF3088C2F600262542 /* MyBookingsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +287,23 @@
 				796BCE803088C2F600262542 /* ProviderMapViewModel.swift in Sources */,
 				796BCE823088C2F600262542 /* ProviderMapView.swift in Sources */,
 				796BCE843088C2F600262542 /* MainTabView.swift in Sources */,
+				796BCEB13088C2F600262542 /* User.swift in Sources */,
+				796BCEB23088C2F600262542 /* AuthResponse.swift in Sources */,
+				796BCEB33088C2F600262542 /* LoginRequest.swift in Sources */,
+				796BCEB43088C2F600262542 /* RegisterRequest.swift in Sources */,
+				796BCEB53088C2F600262542 /* KeychainManager.swift in Sources */,
+				796BCEB63088C2F600262542 /* AuthService.swift in Sources */,
+				796BCEB73088C2F600262542 /* AuthManager.swift in Sources */,
+				796BCEB83088C2F600262542 /* LoginView.swift in Sources */,
+				796BCEB93088C2F600262542 /* RegisterView.swift in Sources */,
+				796BCEBA3088C2F600262542 /* ProfileView.swift in Sources */,
+				796BCECB3088C2F600262542 /* Booking.swift in Sources */,
+				796BCECC3088C2F600262542 /* CreateBookingRequest.swift in Sources */,
+				796BCECD3088C2F600262542 /* BookingService.swift in Sources */,
+				796BCECE3088C2F600262542 /* BookSessionViewModel.swift in Sources */,
+				796BCECF3088C2F600262542 /* MyBookingsViewModel.swift in Sources */,
+				796BCED03088C2F600262542 /* BookSessionSheet.swift in Sources */,
+				796BCED13088C2F600262542 /* MyBookingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +436,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KFSC5CZM4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Coach-finder-Info.plist";
@@ -400,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KFSC5CZM4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Coach-finder-Info.plist";
