@@ -1,0 +1,82 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/master.swiftdeps"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Config/AppConfig.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AppConfig.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AppConfig.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AppConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AppConfig.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/AppConfig.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/APIErrorResponse.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIErrorResponse.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIErrorResponse.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIErrorResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIErrorResponse.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIErrorResponse.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/Activity.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Activity.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Activity.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Activity~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Activity.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Activity.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/PageResponse.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/PageResponse.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/PageResponse.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/PageResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/PageResponse.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/PageResponse.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Models/Provider.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Provider.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Provider.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Provider~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Provider.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/Provider.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/APIClient.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIClient.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIClient.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIClient.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/APIClient.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/LocationManager.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LocationManager.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LocationManager.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LocationManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LocationManager.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/LocationManager.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/Services/ProviderService.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderService.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderService.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderService~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderService.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderService.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/ProviderDetailViewModel.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderDetailViewModel.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderDetailViewModel.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderDetailViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderDetailViewModel.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderDetailViewModel.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/ProviderListViewModel.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderListViewModel.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderListViewModel.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderListViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderListViewModel.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderListViewModel.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinder/ViewModels/ProviderMapViewModel.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderMapViewModel.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderMapViewModel.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderMapViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderMapViewModel.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderCore.build/ProviderMapViewModel.dia"
+  }
+}

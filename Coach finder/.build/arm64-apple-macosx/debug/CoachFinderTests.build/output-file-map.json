@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/master.swiftdeps"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/Mocks/MockProviderService.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockProviderService.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockProviderService.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockProviderService~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockProviderService.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/MockProviderService.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/ProviderDetailViewModelTests.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderDetailViewModelTests.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderDetailViewModelTests.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderDetailViewModelTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderDetailViewModelTests.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderDetailViewModelTests.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/ProviderListViewModelTests.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderListViewModelTests.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderListViewModelTests.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderListViewModelTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderListViewModelTests.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderListViewModelTests.dia"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/CoachFinderTests/ProviderMapViewModelTests.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderMapViewModelTests.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderMapViewModelTests.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderMapViewModelTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderMapViewModelTests.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderTests.build/ProviderMapViewModelTests.dia"
+  }
+}

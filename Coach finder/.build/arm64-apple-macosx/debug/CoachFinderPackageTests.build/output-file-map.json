@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderPackageTests.build/master.swiftdeps"
+  },
+  "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderPackageTests.build/runner.d",
+    "object": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/ayushkumar/Downloads/coachfinder-backend/Coach finder/.build/arm64-apple-macosx/debug/CoachFinderPackageTests.build/runner.dia"
+  }
+}

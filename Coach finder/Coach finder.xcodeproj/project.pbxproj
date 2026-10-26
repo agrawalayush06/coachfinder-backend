@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		796BCE4E3088C2F600262542 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE423088C2F600262542 /* Activity.swift */; };
+		796BCE4F3088C2F600262542 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE473088C2F600262542 /* APIClient.swift */; };
+		796BCE503088C2F600262542 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE453088C2F600262542 /* Provider.swift */; };
+		796BCE513088C2F600262542 /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE4A3088C2F600262542 /* DebugView.swift */; };
+		796BCE523088C2F600262542 /* PageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE443088C2F600262542 /* PageResponse.swift */; };
+		796BCE533088C2F600262542 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE403088C2F600262542 /* AppConfig.swift */; };
+		796BCE543088C2F600262542 /* APIErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE433088C2F600262542 /* APIErrorResponse.swift */; };
+		796BCE553088C2F600262542 /* CoachFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE4C3088C2F600262542 /* CoachFinderApp.swift */; };
+		796BCE563088C2F600262542 /* ProviderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE483088C2F600262542 /* ProviderService.swift */; };
+		796BCE723088C2F600262542 /* ProviderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE713088C2F600262542 /* ProviderListViewModel.swift */; };
+		796BCE743088C2F600262542 /* ActivityFilterPillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE733088C2F600262542 /* ActivityFilterPillsView.swift */; };
+		796BCE763088C2F600262542 /* ProviderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE753088C2F600262542 /* ProviderRowView.swift */; };
+		796BCE783088C2F600262542 /* ProviderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE773088C2F600262542 /* ProviderListView.swift */; };
+		796BCE7A3088C2F600262542 /* ProviderDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE793088C2F600262542 /* ProviderDetailViewModel.swift */; };
+		796BCE7C3088C2F600262542 /* ProviderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE7B3088C2F600262542 /* ProviderDetailView.swift */; };
+		796BCE7E3088C2F600262542 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE7D3088C2F600262542 /* LocationManager.swift */; };
+		796BCE803088C2F600262542 /* ProviderMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE7F3088C2F600262542 /* ProviderMapViewModel.swift */; };
+		796BCE823088C2F600262542 /* ProviderMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE813088C2F600262542 /* ProviderMapView.swift */; };
+		796BCE843088C2F600262542 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BCE833088C2F600262542 /* MainTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		796BCE323088C2B100262542 /* Coach finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coach finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796BCE403088C2F600262542 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		796BCE423088C2F600262542 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		796BCE433088C2F600262542 /* APIErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorResponse.swift; sourceTree = "<group>"; };
+		796BCE443088C2F600262542 /* PageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageResponse.swift; sourceTree = "<group>"; };
+		796BCE453088C2F600262542 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		796BCE473088C2F600262542 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		796BCE483088C2F600262542 /* ProviderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderService.swift; sourceTree = "<group>"; };
+		796BCE4A3088C2F600262542 /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		796BCE4C3088C2F600262542 /* CoachFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachFinderApp.swift; sourceTree = "<group>"; };
+		796BCE6E3088C49F00262542 /* Coach-finder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Coach-finder-Info.plist"; sourceTree = "<group>"; };
+		796BCE713088C2F600262542 /* ProviderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderListViewModel.swift; sourceTree = "<group>"; };
+		796BCE733088C2F600262542 /* ActivityFilterPillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityFilterPillsView.swift; sourceTree = "<group>"; };
+		796BCE753088C2F600262542 /* ProviderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderRowView.swift; sourceTree = "<group>"; };
+		796BCE773088C2F600262542 /* ProviderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderListView.swift; sourceTree = "<group>"; };
+		796BCE793088C2F600262542 /* ProviderDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDetailViewModel.swift; sourceTree = "<group>"; };
+		796BCE7B3088C2F600262542 /* ProviderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDetailView.swift; sourceTree = "<group>"; };
+		796BCE7D3088C2F600262542 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		796BCE7F3088C2F600262542 /* ProviderMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderMapViewModel.swift; sourceTree = "<group>"; };
+		796BCE813088C2F600262542 /* ProviderMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderMapView.swift; sourceTree = "<group>"; };
+		796BCE833088C2F600262542 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		796BCE2F3088C2B100262542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		796BCE293088C2B100262542 = {
+			isa = PBXGroup;
+			children = (
+				796BCE6E3088C49F00262542 /* Coach-finder-Info.plist */,
+				796BCE4D3088C2F600262542 /* CoachFinder */,
+				796BCE333088C2B100262542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		796BCE333088C2B100262542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796BCE323088C2B100262542 /* Coach finder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796BCE413088C2F600262542 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				796BCE403088C2F600262542 /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		796BCE463088C2F600262542 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				796BCE423088C2F600262542 /* Activity.swift */,
+				796BCE433088C2F600262542 /* APIErrorResponse.swift */,
+				796BCE443088C2F600262542 /* PageResponse.swift */,
+				796BCE453088C2F600262542 /* Provider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		796BCE493088C2F600262542 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				796BCE473088C2F600262542 /* APIClient.swift */,
+				796BCE483088C2F600262542 /* ProviderService.swift */,
+				796BCE7D3088C2F600262542 /* LocationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		796BCE4B3088C2F600262542 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				796BCE4A3088C2F600262542 /* DebugView.swift */,
+				796BCE733088C2F600262542 /* ActivityFilterPillsView.swift */,
+				796BCE753088C2F600262542 /* ProviderRowView.swift */,
+				796BCE773088C2F600262542 /* ProviderListView.swift */,
+				796BCE7B3088C2F600262542 /* ProviderDetailView.swift */,
+				796BCE813088C2F600262542 /* ProviderMapView.swift */,
+				796BCE833088C2F600262542 /* MainTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		796BCE703088C2F600262542 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				796BCE713088C2F600262542 /* ProviderListViewModel.swift */,
+				796BCE793088C2F600262542 /* ProviderDetailViewModel.swift */,
+				796BCE7F3088C2F600262542 /* ProviderMapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		796BCE4D3088C2F600262542 /* CoachFinder */ = {
+			isa = PBXGroup;
+			children = (
+				796BCE413088C2F600262542 /* Config */,
+				796BCE463088C2F600262542 /* Models */,
+				796BCE493088C2F600262542 /* Services */,
+				796BCE703088C2F600262542 /* ViewModels */,
+				796BCE4B3088C2F600262542 /* Views */,
+				796BCE4C3088C2F600262542 /* CoachFinderApp.swift */,
+			);
+			path = CoachFinder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796BCE313088C2B100262542 /* Coach finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796BCE3D3088C2B200262542 /* Build configuration list for PBXNativeTarget "Coach finder" */;
+			buildPhases = (
+				796BCE2E3088C2B100262542 /* Sources */,
+				796BCE2F3088C2B100262542 /* Frameworks */,
+				796BCE303088C2B100262542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coach finder";
+			packageProductDependencies = (
+			);
+			productName = "Coach finder";
+			productReference = 796BCE323088C2B100262542 /* Coach finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		796BCE2A3088C2B100262542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					796BCE313088C2B100262542 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 796BCE2D3088C2B100262542 /* Build configuration list for PBXProject "Coach finder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 796BCE293088C2B100262542;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 796BCE333088C2B100262542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796BCE313088C2B100262542 /* Coach finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		796BCE303088C2B100262542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		796BCE2E3088C2B100262542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796BCE4E3088C2F600262542 /* Activity.swift in Sources */,
+				796BCE4F3088C2F600262542 /* APIClient.swift in Sources */,
+				796BCE503088C2F600262542 /* Provider.swift in Sources */,
+				796BCE513088C2F600262542 /* DebugView.swift in Sources */,
+				796BCE523088C2F600262542 /* PageResponse.swift in Sources */,
+				796BCE533088C2F600262542 /* AppConfig.swift in Sources */,
+				796BCE543088C2F600262542 /* APIErrorResponse.swift in Sources */,
+				796BCE553088C2F600262542 /* CoachFinderApp.swift in Sources */,
+				796BCE563088C2F600262542 /* ProviderService.swift in Sources */,
+				796BCE723088C2F600262542 /* ProviderListViewModel.swift in Sources */,
+				796BCE743088C2F600262542 /* ActivityFilterPillsView.swift in Sources */,
+				796BCE763088C2F600262542 /* ProviderRowView.swift in Sources */,
+				796BCE783088C2F600262542 /* ProviderListView.swift in Sources */,
+				796BCE7A3088C2F600262542 /* ProviderDetailViewModel.swift in Sources */,
+				796BCE7C3088C2F600262542 /* ProviderDetailView.swift in Sources */,
+				796BCE7E3088C2F600262542 /* LocationManager.swift in Sources */,
+				796BCE803088C2F600262542 /* ProviderMapViewModel.swift in Sources */,
+				796BCE823088C2F600262542 /* ProviderMapView.swift in Sources */,
+				796BCE843088C2F600262542 /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		796BCE3B3088C2B200262542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		796BCE3C3088C2B200262542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		796BCE3E3088C2B200262542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coach-finder-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coachfinder.Coach-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		796BCE3F3088C2B200262542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coach-finder-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coachfinder.Coach-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796BCE2D3088C2B100262542 /* Build configuration list for PBXProject "Coach finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796BCE3B3088C2B200262542 /* Debug */,
+				796BCE3C3088C2B200262542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796BCE3D3088C2B200262542 /* Build configuration list for PBXNativeTarget "Coach finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796BCE3E3088C2B200262542 /* Debug */,
+				796BCE3F3088C2B200262542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 796BCE2A3088C2B100262542 /* Project object */;
+}
